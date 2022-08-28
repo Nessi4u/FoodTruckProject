@@ -6,9 +6,9 @@ public class FoodTruck {
 	private String truckName;
 	private String foodType;
 	private double rating;
-	
-	public FoodTruck() {}
 
+	public FoodTruck() {
+	}
 
 	public double getNumericID() {
 		return numericID;
@@ -41,12 +41,10 @@ public class FoodTruck {
 	public void setRating(double rating) {
 		this.rating = rating;
 	}
-	
+
 	public String toString() {
-		return "Here are all the food trucks in your area:" foodTruck [numericID = " + numericID + "
-				+ truckName = " + truckName + " 
-						+ foodType = " + foodType + "
-								+ rating = " + rating. " ]";
+		return "Here are all the food trucks in your area: " + this.getNumericID() + " Name: " + this.getTruckName()
+				+ " Type of Food; " + this.getFoodType() + " Rating: " + this.getRating();
 	}
 
 }
