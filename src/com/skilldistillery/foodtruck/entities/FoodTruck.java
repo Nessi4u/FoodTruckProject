@@ -8,18 +8,7 @@ public class FoodTruck {
 	private double rating;
 	
 	public FoodTruck() {}
-	
-	public FoodTruck (double numericID, String truckName, String foodType, double rating) {
-		this.numericID = numericID;
-		this.truckName = truckName;
-		this.foodType = foodType;
-		this.rating = rating;
-	}
-	public FoodTruck (String truckName, String foodType, double rating) {
-		this.truckName = truckName;
-		this.foodType = foodType;
-		this.rating = rating;
-	}
+
 
 	public double getNumericID() {
 		return numericID;
