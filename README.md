@@ -1,8 +1,8 @@
 # Food Truck Project
 
-##Details
+## Details
 
-##What I learned 
+## What I learned 
 
-##Technologies used 
+## Technologies used 
 meow meow meow meow mmmmmeeeeeoooooowww
